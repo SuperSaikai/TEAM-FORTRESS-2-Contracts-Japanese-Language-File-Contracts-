@@ -1,28 +1,39 @@
+## サンプル
+<img width="1348" height="544" src="https://github.com/user-attachments/assets/0a16dc65-4c94-4902-ba4e-ab8aaa98efc3" />
+<img width="1896" height="584" src="https://github.com/user-attachments/assets/c8997eb5-e692-4257-a7c7-cb9465b021f0" />
+<img width="450" height="334" src="https://github.com/user-attachments/assets/4227034f-38f2-497b-bdc9-7747268399df" />
 
 
-"tf_proto_obj_defs_japanese.txt"を追加して、Contractを日本語に対応させると言う簡単な物です。 
-翻訳はツールやwiki参考もアドリブも何でも詰め込んだので、何か誤訳とか不具合とかがありましたらIssuesでお願いします。
+# tf_proto_obj_defs_japanese.txt
 
-○主な修正点
+Team Fortress 2のContractを日本語に対応させるため、`tf_proto_obj_defs_japanese.txt` を追加すると言う簡単な物です。 
 
-"tf_japanese.txt"を中心に参考し、ほぼ全て日本語にした。
+翻訳には、翻訳ツール、Wiki、独自判断などを組み合わせています。誤訳、不具合、その他の問題を見つけた場合は、Issue で報告してください。
 
-○未変更
+## 主な変更点
 
-rootからのファイル名関係(演出重視の為にあえて変えず)
-一部の武器の名前(アンピュテーターはtf_japanese.txtで翻訳されてないから)
-ウォーペイントの名前(マーケットで探しにくくなる)
+- `tf_proto_obj_defs_english.txt` `tf_japanese.txt` を主な参考資料として使用し、ほぼすべての項目を日本語に翻訳しました。
 
-[english]
-It’s a simple matter of adding “tf_proto_obj_defs_japanese.txt” to enable Japanese support in Contract.
-I used a mix of translation tools, wiki references, and my own judgment for the translation, so please report any mistranslations or bugs via Issues.
+## 未変更項目
 
-○ Main Changes
+- ファイル名のrootからの相対関係（演出上の都合により、あえて変更していません）
+- 一部の武器名（例：アンピュテーターは `tf_japanese.txt` に翻訳が存在しないため）
+- ウォーペイント名（マーケットで検索しやすくするため）
 
-I used “tf_japanese.txt” as my primary reference and translated almost everything into Japanese.
+---
 
-○ Unchanged Items
+## English
 
-Filenames relative to “root” (I deliberately left these unchanged for presentation purposes)
-Names of some weapons (since “Amputator” isn’t translated in tf_japanese.txt)
-War Paint names (to prevent them from being hard to find in the Market)
+This is a simple modification that adds `tf_proto_obj_defs_japanese.txt` to enable Japanese support in Contract.
+
+The translation was created using a combination of translation tools, wiki references, and personal judgment. If you find any mistranslations or bugs, please report them in the Issues section.
+
+### Main Changes
+
+- Used `tf_japanese.txt` as the primary reference and translated almost everything into Japanese.
+
+### Unchanged Items
+
+- Filenames relative to the root directory (deliberately left unchanged for presentation purposes)
+- Names of some weapons, such as the Amputator (it is not translated in `tf_japanese.txt`)
+- War Paint names (to make them easier to find in the Market)
