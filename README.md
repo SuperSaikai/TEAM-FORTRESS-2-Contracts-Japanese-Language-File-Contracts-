@@ -3,12 +3,11 @@
 <img width="1896" height="584" src="https://github.com/user-attachments/assets/c8997eb5-e692-4257-a7c7-cb9465b021f0" />
 <img width="450" height="334" src="https://github.com/user-attachments/assets/4227034f-38f2-497b-bdc9-7747268399df" />
 
-
 # tf_proto_obj_defs_japanese.txt
 
 Team Fortress 2のContractを日本語に対応させるため、`tf_proto_obj_defs_japanese.txt` を追加すると言う簡単な物です。 
 
-翻訳には、翻訳ツール、Wiki、独自判断などを組み合わせています。誤訳、不具合、その他の問題を見つけた場合は、Issue で報告してください。
+翻訳には、翻訳ツール、Wiki、独自判断などを組み合わせています。誤訳、不具合、その他の問題を見つけた場合は、[Issues](https://github.com/SuperSaikai/TEAM-FORTRESS-2-Contracts-Japanese-Language-File-Contracts-/issues/1)で報告してください。
 
 ## 主な変更点
 
